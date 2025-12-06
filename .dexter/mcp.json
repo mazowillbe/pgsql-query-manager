@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "type": "websocket",
+      "url": "wss://dexter-ai-wizard-supabase.onrender.com",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_aedacfcef1833a483708ba67ff00535de52216a7"
+      }
+    }
+  }
+}
