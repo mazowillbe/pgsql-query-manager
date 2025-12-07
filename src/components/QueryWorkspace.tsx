@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Play, Download, Trash2, Clock, AlertCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
