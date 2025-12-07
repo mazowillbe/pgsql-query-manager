@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Database, Table, ChevronRight, ChevronDown, RefreshCw, Search, Code, LayoutList } from 'lucide-react';
+import { Database, Table, ChevronRight, ChevronDown, RefreshCw, LayoutList } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 interface ObjectExplorerProps {

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default {
+export default defineConfig({
+  plugins: [react()],
   server: {
-    allowedHosts: ['pgsql-query-manager.onrender.com'],
-    host: true,
-    port: 3000
+    port: 3000,
+    host: true
   }
-}
+})
