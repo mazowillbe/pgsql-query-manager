@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ConnectionForm } from './components/ConnectionForm';
 import { ObjectExplorer } from './components/ObjectExplorer';
 import { QueryWorkspace } from './components/QueryWorkspace';
